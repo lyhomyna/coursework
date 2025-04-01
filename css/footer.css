@@ -1,0 +1,88 @@
+footer {
+    background: #FBF6E2;
+    padding: 2rem 5rem 2rem 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    width: 77%;
+}
+
+.footer-container div:first-child {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+footer h3 {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+.footer-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.tiles {
+    display: flex;
+    flex-direction: column;
+    min-width: 290px;
+}
+
+.tiles a {
+    padding: 1rem 1rem 1rem 0;
+    border-bottom: 1px solid black;
+    font-size: 0.8rem;
+    transition: background 0.3s ease, padding-left 0.3s ease;
+}
+
+.tiles a:hover {
+    background: #FACD59;
+    padding-left: 10px;
+}
+
+.contacts, .other-contacts {
+    display: flex; 
+    flex-direction: column;
+    gap: 20px;
+}
+
+.other-contacts {
+    max-width: 230px;
+}
+
+.payment-btn {
+    max-width: 210px;
+    background: #FACD59;
+    border-radius: 1rem;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.footer-2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.copyright {
+    text-transform: uppercase;
+}

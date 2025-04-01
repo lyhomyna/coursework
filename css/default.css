@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    font-family: Tiempos Medium,Helvetica,Arial,sans-serif;
+    line-height: 1.3em;
+}
+
+body {
+    background: #EEEEEE;
+}
+
+::selection {
+    color: black;
+    background: #FACD59;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+a {
+    all: unset;
+}

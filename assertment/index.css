@@ -1,0 +1,133 @@
+.form-container {
+    background: #e8eec9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    gap: 50px;
+}
+
+.form-pre-text-container {
+    max-width: 570px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form-pre-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-pre-text h3 {
+    font-size: 15px;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.form-pre-text li {
+    padding-bottom: 7px;
+    list-style-position: inside;
+    font-size: 18px;
+}
+
+.form-pre-text ol {
+    padding: 0;
+}
+
+form {
+    width: 33%;
+    background: #fbf6e2;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 17px 15px;
+}
+
+form fieldset {
+    width: 100%;
+    border: none;
+    padding-top: 10px;
+}
+
+form legend { 
+    font-size: 11px;
+    color: #526f5f;
+    font-weight: 700;
+}
+
+form ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
+    font-size: 15px;
+}
+
+form input[type="radio"] {
+    background: #e8eec9;
+    accent-color: #526f5f;  
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+form input[type="radio"] label {
+    cursor: pointer;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.input-box label {
+    font-size: 11px;
+    color: #526f5f;
+    font-weight: 700;
+}
+
+.input-box input[type="text"] {
+    background: #fbf6e2;
+    border: none;
+    border: 1px solid rgba(82, 111, 95, 0.46);
+    padding: 15px;
+    font-size: 18px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.input-box input[type="text"]:focus {
+    border-color: black;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 87px;
+    background: #335242;
+    color: #E5E9E7;
+    padding: 100px 48px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.info h2 {
+    margin-top: 20px;
+}
+
+.info p {
+    max-width: 340px;
+    text-align: center;
+}
