@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    font-family: Tiempos Medium,Helvetica,Arial,sans-serif;
+    line-height: 1.3em;
+}
+
+body {
+    background: #EEEEEE;
+}
+
+::selection {
+    color: black;
+    background: #FACD59;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+a {
+    all: unset;
+}
+
+.greet-container {
+    width: 100%;
+    height: 100vh;
+    background: rgba(82,111,95,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.greet-box {
+    width: 45%;
+    height: 40%;
+    background: #fbf6e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.2);
+}
+
+.title {
+    display: flex;
+    width: 100%;
+}
+
+.title-text {
+    flex: 2;
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding-left: 5rem;
+    margin-top: 100px;
+}
+
+.title-imgs {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.img1 {
+    max-width: 100%;
+}
+
+.img2 {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+}
+
+.reasons-container {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 87px;
+    background: #335242;
+    color: #E5E9E7;
+    padding: 48px;
+}
+
+.reasons-container > div {
+    max-width: 600px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.reasons-container li {
+    max-width: 650px;
+    margin-top: 10px;
+    list-style-type: none;
+    list-style-image: url("./images/check2_24.png");
+    padding-left: 7px;
+}
+
+.info-1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.info-1 > div {
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    gap: 20px;
+}
+
+.info-1 > div h3 {
+    font-size: 2rem;
+}
+
+.info-1 img {
+    min-width: 624px;
+    min-height: 479px;
+}
+
+.info-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FACD59;
+}
+
+
+.info-2 div {
+    max-width: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    padding: 3rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    height: 100vh; 
+}
+
+.grid-container .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 235, 185);
+}
+
+.grid-container .item h1 {
+    max-width: 25rem;
+    text-align: center;
+}
+
+.grid-container .item.grimg1,
+.grid-container .item.grimg2 {
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.grid-container .grimg1 {
+    background-image: url("https://bestbees.com/wp-content/uploads/2023/07/BESTBEES-tajhotel-mltaing_42-e1690469307205.png");
+}
+
+.grid-container .grimg2 {
+    background-image: url("https://bestbees.com/wp-content/uploads/2022/10/Why-and-How-to-become-a-beekeeper-professionally.jpeg");
+}
+
+.beyond-bees {
+    background: #E8EEC9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    text-align: center;
+    padding: 4rem;
+}
+
+.beyond-bees div:first-child p {
+    margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td img {
+    width: 270px;
+    height: 240px;
+    object-fit:contain;
+}
+
+td p {
+    padding: 1rem 1rem;
+}
+
+footer {
+    background: #FBF6E2;
+    padding: 2rem 5rem 2rem 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    width: 77%;
+}
+
+.footer-container div:first-child {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+footer h3 {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+.footer-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.tiles {
+    display: flex;
+    flex-direction: column;
+    min-width: 290px;
+}
+
+.tiles a {
+    padding: 1rem 1rem 1rem 0;
+    border-bottom: 1px solid black;
+    font-size: 0.8rem;
+    transition: background 0.3s ease, padding-left 0.3s ease;
+}
+
+.tiles a:hover {
+    background: #FACD59;
+    padding-left: 10px;
+}
+
+.contacts, .other-contacts {
+    display: flex; 
+    flex-direction: column;
+    gap: 20px;
+}
+
+.other-contacts {
+    max-width: 230px;
+}
+
+.payment-btn {
+    max-width: 210px;
+    background: #FACD59;
+    border-radius: 1rem;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.footer-2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.copyright {
+    text-transform: uppercase;
+}
+
+#scroll-top-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    background-image: url("./images/up-arrow.png");
+    background-size: 20px; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#scroll-top-btn.show {
+    opacity: 1;
+}
+
+#scroll-top-btn:active {
+    transform: scale(0.9);
+}
