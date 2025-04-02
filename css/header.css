@@ -9,8 +9,9 @@ header {
     justify-content: space-between;
 }
 
-header img {
+.logo {
     display: block;
+    cursor: pointer;
 }
 
 .image.menu{

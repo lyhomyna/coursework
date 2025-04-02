@@ -7,11 +7,13 @@
 	<link rel="stylesheet" href="../css/default.css"/>
 	<link rel="stylesheet" href="index.css"/>
 	<script src="index.js" defer></script>
+	<script src="../js/header.js" defer></script>
+	<script src="../js/scroll.js" defer></script>
     </head>
     <body>
 	<header>
 	    <div class="image menu">
-		<img src="https://bestbees.com/wp-content/uploads/2020/04/boston_bees_logo_nav_trimmed.png"/>
+		<img class="logo" src="https://bestbees.com/wp-content/uploads/2020/04/boston_bees_logo_nav_trimmed.png"/>
 		<div class="menu">
 		    <div class="dropdown">
 			<button class="dropdown-btn">
@@ -88,7 +90,7 @@
 			<legend>WHAT TYPE OF SERVICE?</legend>
 			<ul>
 			    <li>
-				<input name="serivce-type" id="radio0" type="radio" value="Corporate Beekeeping"/>
+				<input name="serivce-type" checked id="radio0" type="radio" value="Corporate Beekeeping"/>
 				<label for="radio0">Corporate Beekeeping</label>
 			    </li>
 			    <li>
@@ -105,17 +107,45 @@
 			    </li>
 			    <li>
 				<input name="serivce-type" id="radio4" type="radio" value="education"/>
-				<label for="radio3">Education</label>
+				<label for="radio4">Education</label>
 			    </li>
 			    <li>
 				<input name="serivce-type" id="radio5" type="radio" value="press"/>
-				<label for="radio3">Press</label>
+				<label for="radio5">Press</label>
 			    </li>
 			</ul>
 		    </fieldset>
+		    <div class="databox">
+			<div class="input-box">
+			    <label for="f-name">FIRST NAME</label>
+			    <input id="f-name" type="text" name="f-name"/>
+			</div>
+			<div class="input-box">
+			    <label for="l-name">LAST NAME</label>
+			    <input id="l-name" type="text" name="l-name"/>
+			</div>
+			<div class="input-box">
+			    <label for="zip">ZIP CODE</label>
+			    <input id="zip" type="text" name="zip"/>
+			</div>
+			<div class="input-box">
+			    <label for="phone">PHONE NUMBER</label>
+			    <input id="phone" type="text" name="phone"/>
+			</div>
+		    </div>
+		    <div class="email-company">
 		    <div class="input-box">
-			<label for="f-name">FIRST NAME</label>
-			<input id="f-name" type="text" name="f-name"/>
+			<label for="email">EMAIL ADDRESS</label>
+			<input id="email" type="text" name="email"/>
+		    </div>
+		    <div class="input-box">
+			<label for="company-name">COMPANY/ORGANIZATION NAME</label>
+			<input id="company-name" type="text" name="company-name"/>
+		    </div>
+		    </div>
+		    <div>
+			<input class="form-button" type="submit" value="SUBMIT"/>
+			<input class="form-button" type="reset" value="RESET"/>
 		    </div>
 		</form>
 	    </div>

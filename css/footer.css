@@ -69,6 +69,17 @@ footer p {
     padding: 10px;
     text-transform: uppercase;
     font-size: 0.8rem;
+    border: 1px solid #FACD59;
+    cursor: pointer;
+}
+
+.payment-btn:hover {
+    transform: scale(1.05);
+    background: #ffebb9;
+}
+
+.payment-btn:active {
+    transform: scale(1);
 }
 
 .footer-2 {

@@ -45,7 +45,7 @@ form {
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    padding: 17px 15px;
+   padding: 17px 15px;
 }
 
 form fieldset {
@@ -84,6 +84,14 @@ form input[type="radio"] label {
     display: flex;
     flex-direction: column;
     gap: 7px;
+    max-width: calc(100% - 30px);
+}
+
+.email-company {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .input-box label {
@@ -93,6 +101,8 @@ form input[type="radio"] label {
 }
 
 .input-box input[type="text"] {
+    width: 100%;
+    max-width: 100%;
     background: #fbf6e2;
     border: none;
     border: 1px solid rgba(82, 111, 95, 0.46);
@@ -104,6 +114,33 @@ form input[type="radio"] label {
 
 .input-box input[type="text"]:focus {
     border-color: black;
+}
+
+.databox {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.form-button {
+    border-radius: 39px;
+    background: #FACD59;
+    color: black;
+    text-align: center;
+    padding: 10px 40px;
+    font-size: 0.8rem;
+    border: 1px solid #FACD59;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    transform: scale(1.05);
+    background: #ffebb9;
+}
+
+.form-button:active {
+    transform: scale(1);
 }
 
 .info-container {
