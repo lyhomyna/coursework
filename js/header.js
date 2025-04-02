@@ -8,7 +8,7 @@ locationsBtn.addEventListener("mouseover", () => {
     let elements = "";
     for (let i = 0; i < locationsArr.length; i++) {
 	const anchor = document.createElement("a");
-	anchor.href = "#";
+	anchor.href = "/under-development/index.html";
 	anchor.innerText = locationsArr[i];
 	
 	elements += anchor.outerHTML;
