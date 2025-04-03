@@ -1,0 +1,22 @@
+.message-container {
+    width: 40%;
+    background: #E8EEC9;
+    padding: 48px 15px;
+    position: relative;
+    margin: 0 auto 100px auto;
+}
+
+.message-text {
+    text-align: center;
+}
+
+.message-img {
+    position: absolute;
+    top: -70px;
+    left: calc(50% - 60px); 
+}
+
+video {
+    display: block;
+    margin: 50px auto 100px auto;
+}
