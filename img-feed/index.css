@@ -1,12 +1,9 @@
-main {
-    max-width: 1224px;
-    width: 90%;
-    padding: 40px 0;
-}
-
 .photo-gallery {
     display: flex;
     gap: 20px;
+    max-width: 1224px;
+    margin: auto;
+    padding-bottom: 50px;
 }
 
 .column {
@@ -15,8 +12,9 @@ main {
     gap: 20px;
 }
 
-.photo img {
-    border-radius: 5px;
+.photo {
+    width: 100%;
+    border-radius: 10px;
     object-fit: cover;
 }
 

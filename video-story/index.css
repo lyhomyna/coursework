@@ -1,0 +1,29 @@
+.videos {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.video-item {
+    display: flex;
+    gap: 50px
+}
+
+.video-descr {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.video-item video {
+    max-width: 250px;
+    display: block;
+    object-fit: cover;
+}
+
+
+@media(max-width: 768px) {
+    .video-item {
+	flex-direction: column;
+    }
+}

@@ -1,0 +1,51 @@
+main {
+    max-width: 65%;
+    margin: auto;
+    padding: 50px 0 70px 0;
+}
+
+.title {
+    font-size: 4.5rem;
+    text-align: center;
+    line-height: 5rem;
+}
+
+.date {
+    text-transform: uppercase;
+    color: rgb(0, 0, 0, 0.6);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.contents {
+    display: flex;
+    justify-content: start;
+    margin-top: 30px;
+}
+
+.contents li {
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.contents ul {
+    padding-left: 70px; 
+}
+
+.contents li {
+    list-style-image: url("/images/list-marker.png");
+}
+
+section {
+    text-align: justify;
+    margin-top: 30px;
+}
+
+section h2::after {
+    content: "🐝";
+}
+
+section p {
+    padding: 10px 0;
+}

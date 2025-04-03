@@ -69,7 +69,7 @@
     gap: 87px;
     background: #335242;
     color: #E5E9E7;
-    padding: 100px 48px;
+    padding: 90px 48px;
 }
 
 .reasons-container > div {
@@ -82,7 +82,6 @@
     max-width: 650px;
     list-style-type: none;
     list-style-image: url("./images/check2_24.png");
-    padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 7px;
 }
@@ -138,14 +137,20 @@
 
 .grid-container .item {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     background: rgb(255, 235, 185);
+    padding: 100px;
+}
+
+.grid-container .item p {
+    max-width: 35rem;
 }
 
 .grid-container .item h1 {
-    max-width: 25rem;
-    text-align: center;
+    max-width: 40rem;
+    text-align: left;
 }
 
 .grid-container .item.grimg1,

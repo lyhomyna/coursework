@@ -2,13 +2,19 @@ const locationsBtn = document.querySelector(".dropdown-btn.locations");
 const locations = document.querySelector(".dropdown-content.locations");
 const logo = document.querySelector(".logo");
 
-const locationsArr = ["Austin", "Atlanta", "Boston", "Chicago", "Columbus", "Dallas", "Denver", "Hartford", "Houston", "Los Angeles", "Nahville", "New York", "Omaha", "Philadelphia", "Phoenix", "Pittsburgh", "Portland", "Raleigh", "Salt Lake City", "San Diego", "San Francisco"];
+const locationsArr = ["Kyiv", "Lviv", "Zhytomyr", "Cherkasy", "Ternopil", "Rivne", "Dnipro", "Vinnytsia", "Volyn", "Donetsk", "Zakarpattia", "Zaporizhzhia", "Crimea", "Ivano-Frankivsk", "Kirovohrad", "Luhansk", "Mykolaiv", "Odessa", "Poltava", "Sumy", "Kharkiv", "Kherson", "Khmelnytskyi", "Chernivtsi", "Chernihiv"];
 
 locationsBtn.addEventListener("mouseover", () => {
     let elements = "";
     for (let i = 0; i < locationsArr.length; i++) {
 	const anchor = document.createElement("a");
-	anchor.href = "/under-development/index.html";
+
+	if (locationsArr[i] === "Crimea") {
+	    anchor.href = `https://www.google.com/maps/place/${locationsArr[i]}+Peninsula`;
+	} else {
+	    anchor.href = `https://www.google.com/maps/place/${locationsArr[i]}+Oblast`;
+	}
+	anchor.target = "_blank";
 	anchor.innerText = locationsArr[i];
 	
 	elements += anchor.outerHTML;

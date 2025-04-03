@@ -1,0 +1,31 @@
+.about-box {
+    background: url("/images/honey-bubble.png") no-repeat;
+    background-position: right top;
+    height: 70vh;
+    background-size: 356px 393px;
+    width: 100%;
+}
+
+.about-text {
+    width: 35%;
+    text-align: center;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.line {
+    width: calc(1rem * 7);
+    height: 3px;
+    background: #FACD59;
+    margin: 20px auto 10px auto;
+}
+
+.about-text h1 {
+    font-size: 4rem;
+}
+
+.bestbees {
+    cursor: pointer;
+    font-size: 23px;
+    background: #FACD59;
+}
