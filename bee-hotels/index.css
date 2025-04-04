@@ -1,0 +1,75 @@
+main {
+    max-width: 65%;
+    margin: auto;
+    padding: 50px 0 70px 0;
+}
+
+.title {
+    font-size: 4.5rem;
+    text-align: center;
+    line-height: 5rem;
+}
+
+.date {
+    text-transform: uppercase;
+    color: rgb(0, 0, 0, 0.6);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.contents {
+    display: flex;
+    justify-content: start;
+    margin-top: 30px;
+}
+
+.contents li {
+    cursor: pointer;
+    font-size: 1.5rem;
+    list-style-image: url("/images/list-marker.png");
+    transition: transform 0.3s ease;
+}
+
+.contents li:hover {
+    transform: scale(1.07);
+}
+
+.contents ul {
+    padding-left: 70px; 
+}
+
+section {
+    text-align: justify;
+    margin-top: 30px;
+}
+
+section h2::after {
+    content: "🐝";
+}
+
+section p {
+    padding: 10px 0;
+}
+
+.img-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-container.section {
+    gap: 10px;
+} 
+
+.img-container.section img {
+    width: 100%;
+}
+
+ol {
+    font-size: 32px;
+}
+
+iframe {
+    margin-top: 50px;
+}

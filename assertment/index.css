@@ -100,6 +100,10 @@ form input[type="radio"] label {
     font-weight: 700;
 }
 
+.input-box .wrong {
+    color: red;
+}
+
 .input-box input[type="text"] {
     width: 100%;
     max-width: 100%;
@@ -168,3 +172,4 @@ form input[type="radio"] label {
     max-width: 340px;
     text-align: center;
 }
+
