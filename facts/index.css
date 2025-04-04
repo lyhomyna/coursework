@@ -17,3 +17,36 @@ main {
     margin-top: 20px;
     margin-bottom: 50px;
 }
+
+section p a {
+    text-decoration: underline;
+    font-style: italic;
+    cursor: pointer;
+}
+
+ol {
+    list-style-type: upper-roman;
+    font-size: 32px;
+    text-align: justify;
+}
+
+section {
+    text-align: justify;
+    margin-top: 30px;
+}
+
+section h2::after {
+    content: "🐝";
+}
+
+section p {
+    padding: 10px 0;
+}
+
+li {
+    transition: transform 0.3s ease;
+}
+
+li:hover {
+    transform: scale(1.02);
+}

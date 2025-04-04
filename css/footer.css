@@ -94,6 +94,10 @@ footer p {
     gap: 30px;
 }
 
+.socials img {
+    cursor: pointer;
+}
+
 .copyright {
     text-transform: uppercase;
 }

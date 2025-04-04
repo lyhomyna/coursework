@@ -27,14 +27,16 @@ main {
 .contents li {
     cursor: pointer;
     font-size: 1.5rem;
+    list-style-image: url("/images/list-marker.png");
+    transition: transform 0.3s ease;
+}
+
+.contents li:hover {
+    transform: scale(1.07);
 }
 
 .contents ul {
     padding-left: 70px; 
-}
-
-.contents li {
-    list-style-image: url("/images/list-marker.png");
 }
 
 section {
